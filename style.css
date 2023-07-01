@@ -1,0 +1,97 @@
+body {
+  background-color: aliceblue;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.form {
+  margin-bottom: 500px;
+}
+.Email {
+  position: relative;
+  margin-top: auto;
+}
+.Email input {
+  padding-left: 25px;
+  width: 90%;
+  height: 40px;
+  outline: none;
+  border-width: 0;
+  border-radius: 6px;
+}
+.Email i {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+}
+.password {
+  position: relative;
+  margin-top: 10px;
+}
+.password input {
+  padding-left: 25px;
+  width: 90%;
+  height: 40px;
+  outline: none;
+  border-width: 0;
+  border-radius: 6px;
+}
+.password i {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+}
+.lock {
+  position: relative;
+  left: 250px;
+  bottom: 30px;
+}
+
+.container p {
+  color: blue;
+  position: relative;
+  bottom: 5px;
+  left: 240px;
+}
+.btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border-style: none;
+  margin-top: 10px;
+}
+.btn--Login {
+  background-color: blue;
+  color: white;
+}
+.container2 p {
+  margin-left: 128px;
+  margin-top: 10px;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+time {
+  position: relative;
+  right: 260px;
+  top: 10px;
+}
+.link {
+  position: relative;
+  color: blue;
+  bottom: 25px;
+  right: 80px;
+}
+/* .line1 {
+  width: 50%;
+  height: 1px;
+  background-color: black;
+} */
